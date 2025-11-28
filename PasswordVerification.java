@@ -71,6 +71,7 @@ public class PasswordVerification {
         Scanner scan = new Scanner(System.in);
         System.out.print("Input a password: ");
         String password = scan.nextLine();   
-        PasswordVerification.verify(password);   
+        PasswordVerification.verify(password);  
+        scan.close(); 
     }
 }
